@@ -24,7 +24,7 @@ The 4-bit `Sel` input controls the ALU's function as follows:
 | `0010`      | `A + 1`             | Increment A                |
 | `0011`      | `A - 1`             | Decrement A                |
 | `0100`      | `A & B`             | Bitwise AND                |
-| `0101`      | `A | B`             | Bitwise OR                 |
+| `0101`      | `A \| B`             | Bitwise OR                 |
 | `0110`      | `A ^ B`             | Bitwise XOR                |
 | `0111`      | `~A`                | Bitwise NOT                |
 | `1000`      | `A << 1`            | Logical Shift Left         |
